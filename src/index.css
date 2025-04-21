@@ -1,0 +1,79 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.overall{
+  background-image: url("https://cdn.pixabay.com/photo/2021/07/31/18/05/rainy-window-6512668_1280.jpg");
+  min-height: 100vh;
+  background-repeat:no-repeat ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* opacity: 0.8; */
+
+}
+.card{
+  width:300px;
+  min-height: 70vh;
+  background-color: rgba(250, 247, 247, 0.377) ;
+  /* opacity: 0.9; */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  border: 4px double;
+  
+}
+h3{
+  font-family: cursive;
+  font-size: 30px;
+}
+.min{
+  display: flex;
+  flex-direction: column;
+  gap:9px;
+}
+.minn,.mincard,.mist{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+.mincard{
+  gap:20px;
+  background-color: rgba(83, 80, 80, 0.329);
+  height: 100px;
+  padding: 10px;
+  font-weight:bolder;
+  align-items: center;
+  justify-content: center;
+}
+.mist{
+  justify-content: center;
+}
+input,.btn{
+  height: 35px;
+  padding: 10px;
+  /* border-radius: 10px; */
+  border: 0px;
+  box-shadow: 0px 0px 5px;
+}
+input{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.btn{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.cloud{
+  font-size: 60px;
+}
+.mis{
+  font-size: 20px;
+  margin-top: 8px;
+}
+p,.level{
+  font-size: 20px;
+}
